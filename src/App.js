@@ -4,9 +4,6 @@ import Card from './components/Card'
 import Footer from './components/Footer'
 import items from './assets/items'
 
-import './css/skeleton.css'
-import './css/normalize.css'
-
 function App() {
     return ( 
         <div className = "App" >

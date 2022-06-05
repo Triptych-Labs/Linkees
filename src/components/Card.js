@@ -1,8 +1,5 @@
 import React from 'react'
 
-import '../css/skeleton.css'
-import '../css/normalize.css'
-import '../css/components.css'
 import { motion } from "framer-motion"
 
 function Card(props) {

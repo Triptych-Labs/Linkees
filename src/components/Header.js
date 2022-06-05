@@ -2,9 +2,6 @@ import React from 'react'
 import SunIcon from './Icons/SunIcon'
 import MoonIcon from './Icons/MoonIcon'
 import avatar from '../assets/avatar.jpeg'
-import '../css/skeleton.css'
-import '../css/normalize.css'
-import '../css/components.css'
 
 function Header() {
   const [theme, setTheme] = React.useState(() => document.body.getAttribute('data-theme') ?? 'dark')
